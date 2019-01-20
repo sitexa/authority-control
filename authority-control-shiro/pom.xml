@@ -8,6 +8,12 @@
 	<name>authority-control-shiro Maven Webapp</name>
 	<url>http://maven.apache.org</url>
 
+	<parent>
+		<groupId>com.light</groupId>
+		<artifactId>authority</artifactId>
+		<version>0.0.1-SNAPSHOT</version>
+	</parent>
+
 	<properties>
 		<spring.version>4.3.7.RELEASE</spring.version>
 		<mybatis.version>3.4.2</mybatis.version>
